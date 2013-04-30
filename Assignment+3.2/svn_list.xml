@@ -1,0 +1,2557 @@
+<?xml version="1.0"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/sp13-cs242/huangfu2">
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.classpath</name>
+<size>379</size>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.project</name>
+<size>389</size>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.settings</name>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>598</size>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src</name>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/Chess</name>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/MyChess.java</name>
+<size>28941</size>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/TestSuit</name>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/TestSuit/ChessTest.java</name>
+<size>7452</size>
+<commit
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.classpath</name>
+<size>379</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.project</name>
+<size>389</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.settings</name>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.settings/org.eclipse.jdt.core.prefs</name>
+<size>598</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Assignment1.1.doxyfile</name>
+<size>78288</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/ManualTest.pdf</name>
+<size>499788</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/image</name>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/black_bishop.gif</name>
+<size>740</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/black_king.gif</name>
+<size>1025</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/black_knight.gif</name>
+<size>775</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/black_pawn.gif</name>
+<size>396</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/black_queen.gif</name>
+<size>832</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/black_rook.gif</name>
+<size>685</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/white_bishop.gif</name>
+<size>884</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/white_king.gif</name>
+<size>940</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/white_knight.gif</name>
+<size>863</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/white_pawn.gif</name>
+<size>742</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/white_queen.gif</name>
+<size>989</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/image/white_rook.gif</name>
+<size>823</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/chessGame</name>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/chessGame/ConditionCheck.java</name>
+<size>7840</size>
+<commit
+   revision="5588">
+<author>huangfu2</author>
+<date>2013-02-01T21:55:15.590629Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/chessGame/GameLoop.java</name>
+<size>332</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/chessGame/MoveExecute.java</name>
+<size>3120</size>
+<commit
+   revision="5588">
+<author>huangfu2</author>
+<date>2013-02-01T21:55:15.590629Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/chessGame/MoveValidCheck.java</name>
+<size>1926</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/chessGame/MyGame.java</name>
+<size>2807</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/customerPieceTest</name>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/customerPieceTest/CustomerPiecesTest.java</name>
+<size>2319</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/gui</name>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/gui/Graphic.java</name>
+<size>16171</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/gui/TestGraphic.java</name>
+<size>304</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/pieces</name>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/ArchBishop.java</name>
+<size>344</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Bishop.java</name>
+<size>1730</size>
+<commit
+   revision="5588">
+<author>huangfu2</author>
+<date>2013-02-01T21:55:15.590629Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Chancellor.java</name>
+<size>338</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/King.java</name>
+<size>1369</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Knight.java</name>
+<size>1360</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Pawn.java</name>
+<size>2264</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Pieces.java</name>
+<size>399</size>
+<commit
+   revision="5588">
+<author>huangfu2</author>
+<date>2013-02-01T21:55:15.590629Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Queen.java</name>
+<size>327</size>
+<commit
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/pieces/Rook.java</name>
+<size>2042</size>
+<commit
+   revision="5588">
+<author>huangfu2</author>
+<date>2013-02-01T21:55:15.590629Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/testSuit</name>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/testSuit/BeforeTest.java</name>
+<size>273</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/testSuit/BishopTest.java</name>
+<size>1367</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/testSuit/KingTest.java</name>
+<size>1164</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/testSuit/KnightTest.java</name>
+<size>1152</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/testSuit/PawnTest.java</name>
+<size>1388</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/testSuit/QueenTest.java</name>
+<size>1365</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/testSuit/RookTest.java</name>
+<size>1346</size>
+<commit
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.classpath</name>
+<size>379</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.project</name>
+<size>389</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.settings</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.settings/org.eclipse.jdt.core.prefs</name>
+<size>598</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Assignment1.1.doxyfile</name>
+<size>78288</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/ManualTest.pdf</name>
+<size>499788</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/image</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/black_bishop.gif</name>
+<size>740</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/black_king.gif</name>
+<size>1025</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/black_knight.gif</name>
+<size>775</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/black_pawn.gif</name>
+<size>396</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/black_queen.gif</name>
+<size>832</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/black_rook.gif</name>
+<size>685</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/white_bishop.gif</name>
+<size>884</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/white_king.gif</name>
+<size>940</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/white_knight.gif</name>
+<size>863</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/white_pawn.gif</name>
+<size>742</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/white_queen.gif</name>
+<size>989</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/image/white_rook.gif</name>
+<size>823</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/chessGame</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/chessGame/ConditionCheck.java</name>
+<size>7840</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/chessGame/GameLoop.java</name>
+<size>332</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/chessGame/MoveExecute.java</name>
+<size>3120</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/chessGame/MoveValidCheck.java</name>
+<size>1926</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/chessGame/MyGame.java</name>
+<size>2807</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/customerPieceTest</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/customerPieceTest/CustomerPiecesTest.java</name>
+<size>2319</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/gui</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/gui/Graphic.java</name>
+<size>16171</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/gui/TestGraphic.java</name>
+<size>304</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/pieces</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/ArchBishop.java</name>
+<size>344</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Bishop.java</name>
+<size>1730</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Chancellor.java</name>
+<size>338</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/King.java</name>
+<size>1369</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Knight.java</name>
+<size>1360</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Pawn.java</name>
+<size>2264</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Pieces.java</name>
+<size>399</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Queen.java</name>
+<size>327</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces/Rook.java</name>
+<size>2042</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/testSuit</name>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/testSuit/BeforeTest.java</name>
+<size>273</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/testSuit/BishopTest.java</name>
+<size>1367</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/testSuit/KingTest.java</name>
+<size>1164</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/testSuit/KnightTest.java</name>
+<size>1152</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/testSuit/PawnTest.java</name>
+<size>1388</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/testSuit/QueenTest.java</name>
+<size>1365</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/testSuit/RookTest.java</name>
+<size>1346</size>
+<commit
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/.classpath</name>
+<size>566</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/.project</name>
+<size>389</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/.settings</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/.settings/org.eclipse.jdt.core.prefs</name>
+<size>598</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/Assignment1.1.doxyfile</name>
+<size>78288</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/ManualTest.pdf</name>
+<size>499788</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/image</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/black_bishop.gif</name>
+<size>740</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/black_king.gif</name>
+<size>1025</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/black_knight.gif</name>
+<size>775</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/black_pawn.gif</name>
+<size>396</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/black_queen.gif</name>
+<size>832</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/black_rook.gif</name>
+<size>685</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/white_bishop.gif</name>
+<size>884</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/white_king.gif</name>
+<size>940</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/white_knight.gif</name>
+<size>863</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/white_pawn.gif</name>
+<size>742</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/white_queen.gif</name>
+<size>989</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/image/white_rook.gif</name>
+<size>823</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/src</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/src/chessGame</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/chessGame/ConditionCheck.java</name>
+<size>7840</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/chessGame/GameLoop.java</name>
+<size>204</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/chessGame/MoveExecute.java</name>
+<size>3120</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/chessGame/MoveValidCheck.java</name>
+<size>1926</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/chessGame/MyGame.java</name>
+<size>2426</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/src/customerPieceTest</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/customerPieceTest/CustomerPiecesTest.java</name>
+<size>2319</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/src/gui</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/gui/Action.java</name>
+<size>6545</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/gui/Graphic.java</name>
+<size>9550</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/gui/TestGraphic.java</name>
+<size>304</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/src/mockitTest</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/mockitTest/MockitT.java</name>
+<size>1710</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/src/network</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/network/MyClient.java</name>
+<size>2211</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/network/MyServer.java</name>
+<size>2037</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/src/pieces</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/ArchBishop.java</name>
+<size>344</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/Bishop.java</name>
+<size>1730</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/Chancellor.java</name>
+<size>338</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/King.java</name>
+<size>1324</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/Knight.java</name>
+<size>1360</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/Pawn.java</name>
+<size>2223</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/Pieces.java</name>
+<size>399</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/Queen.java</name>
+<size>327</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/pieces/Rook.java</name>
+<size>2042</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.3/src/testSuit</name>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/testSuit/BeforeTest.java</name>
+<size>273</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/testSuit/BishopTest.java</name>
+<size>1367</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/testSuit/KingTest.java</name>
+<size>1164</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/testSuit/KnightTest.java</name>
+<size>1152</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/testSuit/PawnTest.java</name>
+<size>1388</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/testSuit/QueenTest.java</name>
+<size>1365</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.3/src/testSuit/RookTest.java</name>
+<size>1346</size>
+<commit
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.project</name>
+<size>384</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.pydevproject</name>
+<size>432</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/src</name>
+<commit
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/src/DataParse</name>
+<commit
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/DataParse/Parser.py</name>
+<size>2384</size>
+<commit
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/DataParse/QueryingData.py</name>
+<size>369</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/DataParse/UserQuerying.py</name>
+<size>6129</size>
+<commit
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/DataParse/__init__.py</name>
+<size>0</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/src/InterFace</name>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/InterFace/TextInterFace.py</name>
+<size>1473</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/InterFace/__init__.py</name>
+<size>0</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/src/MyGraphLib</name>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/MyGraphLib/CityInfo.py</name>
+<size>530</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/MyGraphLib/RouteInfo.py</name>
+<size>279</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/MyGraphLib/__init__.py</name>
+<size>12</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/src/Test</name>
+<commit
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/Test/ContinentTest.py</name>
+<size>1273</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/Test/ParesTest.py</name>
+<size>1132</size>
+<commit
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/Test/QueryTest.py</name>
+<size>632</size>
+<commit
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/src/Test/__init__.py</name>
+<size>0</size>
+<commit
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.project</name>
+<size>384</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.pydevproject</name>
+<size>432</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src</name>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/DataParse</name>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/DataParse/CostHelper.py</name>
+<size>2151</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/DataParse/DijkstraAlgorithm.py</name>
+<size>3397</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/DataParse/Parser.py</name>
+<size>2488</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/DataParse/QueryingData.py</name>
+<size>351</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/DataParse/UserQuerying.py</name>
+<size>10149</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/DataParse/UserQueryingExpand.py</name>
+<size>9756</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/DataParse/__init__.py</name>
+<size>0</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/InterFace</name>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/InterFace/TextInterFace.py</name>
+<size>2439</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/InterFace/__init__.py</name>
+<size>0</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/MyGraphLib</name>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/MyGraphLib/CityInfo.py</name>
+<size>493</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/MyGraphLib/RouteInfo.py</name>
+<size>279</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/MyGraphLib/__init__.py</name>
+<size>12</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/Priodict</name>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/Priodict/__init__.py</name>
+<size>0</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/Priodict/priorityDictionary.py</name>
+<size>3205</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/Test</name>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/Test/ContinentTest.py</name>
+<size>1273</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/Test/OutPutTest.py</name>
+<size>451</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/Test/ParesTest.py</name>
+<size>1132</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/Test/QueryTest.py</name>
+<size>632</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/Test/__init__.py</name>
+<size>0</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/UserQueryingExpandTest</name>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/UserQueryingExpandTest/AddCityTest.py</name>
+<size>461</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/UserQueryingExpandTest/AddRouteTest.py</name>
+<size>444</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/UserQueryingExpandTest/EditCityTest.py</name>
+<size>446</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/UserQueryingExpandTest/RemoveCityTest.py</name>
+<size>415</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/UserQueryingExpandTest/RemoveRouteTest.py</name>
+<size>593</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/UserQueryingExpandTest/RouteInfo.py</name>
+<size>464</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/UserQueryingExpandTest/__init__.py</name>
+<size>0</size>
+<commit
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0</name>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.classpath</name>
+<size>307</size>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.project</name>
+<size>362</size>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/.settings</name>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/bin</name>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/doc</name>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src</name>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation</name>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/LANSimulation.java</name>
+<size>5845</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/Network.java</name>
+<size>11896</size>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation/internals</name>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/internals/Node.java</name>
+<size>4188</size>
+<commit
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>HW0/src/lanSimulation/tests</name>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10293</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>assignment0_part3</name>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>assignment0_part3/mp3</name>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/Makefile</name>
+<size>295</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>assignment0_part3/mp3/doc</name>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/doc/Doxyfile</name>
+<size>64994</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/doc/cs241.html</name>
+<size>11698</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/doc/main.dox</name>
+<size>150</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/doc/shell.html</name>
+<size>6797</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/log.c</name>
+<size>5789</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/log.h</name>
+<size>517</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/shell</name>
+<size>19083</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/shell.c</name>
+<size>1889</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/testlog</name>
+<size>12509</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>assignment0_part3/mp3/testlog.c</name>
+<size>494</size>
+<commit
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+</commit>
+</entry>
+</list>
+</lists>

@@ -1,0 +1,1495 @@
+<?xml version="1.0"?>
+<log>
+<logentry
+   revision="9702">
+<author>huangfu2</author>
+<date>2013-03-01T20:37:10.503199Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/InterFace/TextInterFace.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/.project</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment2.1/src/MyGraphLib</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/MyGraphLib/RouteInfo.py</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment2.1/src</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment2.1/src/InterFace</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/UserQueryingExpandTest/AddRouteTest.py</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment2.1/src/UserQueryingExpandTest</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/UserQueryingExpandTest/RouteInfo.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/Priodict/__init__.py</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment2.1/src/DataParse</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/Test/__init__.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/UserQueryingExpandTest/EditCityTest.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/UserQueryingExpandTest/AddCityTest.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/Test/QueryTest.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/Priodict/priorityDictionary.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/UserQueryingExpandTest/RemoveCityTest.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/MyGraphLib/__init__.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/InterFace/__init__.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/DataParse/Parser.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/DataParse/QueryingData.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/UserQueryingExpandTest/__init__.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/DataParse/__init__.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/DataParse/UserQuerying.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/DataParse/UserQueryingExpand.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/DataParse/CostHelper.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/.pydevproject</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/UserQueryingExpandTest/RemoveRouteTest.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/Test/OutPutTest.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/Test/ContinentTest.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.1/src/MyGraphLib/CityInfo.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/DataParse/DijkstraAlgorithm.py</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment2.1/src/Priodict</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment2.1/src/Test</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.1/src/Test/ParesTest.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9701">
+<author>huangfu2</author>
+<date>2013-03-01T20:36:28.875335Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment2.1</path>
+</paths>
+<msg>Share project "Assignment2.1" into "https://subversion.ews.illinois.edu/svn/sp13-cs242/huangfu2"</msg>
+</logentry>
+<logentry
+   revision="8800">
+<author>huangfu2</author>
+<date>2013-02-22T21:48:14.958017Z</date>
+<paths>
+<path
+   kind="file"
+   copyfrom-path="/huangfu2/Assignment2.0/src/Test/CityInfoTest.py"
+   copyfrom-rev="8605"
+   action="A">/huangfu2/Assignment2.0/src/Test/ParesTest.py</path>
+<path
+   action="M"
+   kind="file">/huangfu2/Assignment2.0/src/DataParse/Parser.py</path>
+<path
+   kind="file"
+   action="D">/huangfu2/Assignment2.0/src/Test/CityInfoTest.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/src/Test/QueryTest.py</path>
+<path
+   action="M"
+   kind="file">/huangfu2/Assignment2.0/src/DataParse/UserQuerying.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8605">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:46.926696Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.0/src/InterFace/TextInterFace.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/.project</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.0/src/DataParse/UserQuerying.py</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment2.0/src/MyGraphLib</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/src/MyGraphLib/RouteInfo.py</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment2.0/src/InterFace</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment2.0/src</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment2.0/src/DataParse</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.0/src/Test/__init__.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/.pydevproject</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/src/Test/ContinentTest.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/src/MyGraphLib/CityInfo.py</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment2.0/src/Test</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/src/MyGraphLib/__init__.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.0/src/InterFace/__init__.py</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment2.0/src/DataParse/Parser.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/src/DataParse/QueryingData.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/src/Test/CityInfoTest.py</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment2.0/src/DataParse/__init__.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8604">
+<author>huangfu2</author>
+<date>2013-02-22T06:56:11.564300Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment2.0</path>
+</paths>
+<msg>Share project "Assignment2.0" into "https://subversion.ews.illinois.edu/svn/sp13-cs242/huangfu2"</msg>
+</logentry>
+<logentry
+   revision="7841">
+<author>huangfu2</author>
+<date>2013-02-15T21:40:27.776099Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/chessGame/GameLoop.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.3/src/mockitTest</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/testSuit/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/testSuit/KnightTest.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.3/src/network</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/testSuit/KingTest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/network/MyClient.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/pieces/Chancellor.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/pieces/Rook.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/chessGame/MoveValidCheck.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/pieces/Queen.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.3/src/customerPieceTest</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/chessGame/MoveExecute.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.3/src/pieces</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/testSuit/RookTest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/image/black_knight.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/image/black_bishop.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/mockitTest/MockitT.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/gui/Action.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/testSuit/QueenTest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/image/white_bishop.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/image/black_king.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/Assignment1.1.doxyfile</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/image/white_knight.gif</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.3/src/testSuit</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.3/src/gui</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/network/MyServer.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.3/.settings</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/image/white_king.gif</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.3/image</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/.project</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/ManualTest.pdf</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/chessGame/MyGame.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.3/src/chessGame</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/pieces/Pieces.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.3/src</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/image/black_pawn.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/chessGame/ConditionCheck.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/image/white_pawn.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/image/black_rook.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/testSuit/BeforeTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/image/black_queen.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/image/white_rook.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/.classpath</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/testSuit/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/pieces/ArchBishop.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/image/white_queen.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/pieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/pieces/King.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.3/src/customerPieceTest/CustomerPiecesTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/gui/Graphic.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.3/src/gui/TestGraphic.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7840">
+<author>huangfu2</author>
+<date>2013-02-15T21:39:38.148456Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.3</path>
+</paths>
+<msg>Share project "Assignment1.3" into "https://subversion.ews.illinois.edu/svn/sp13-cs242/huangfu2"</msg>
+</logentry>
+<logentry
+   revision="6827">
+<author>huangfu2</author>
+<date>2013-02-08T21:50:14.719701Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/testSuit/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/image/black_bishop.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/image/black_knight.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/customerPieceTest/CustomerPiecesTest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/chessGame/GameLoop.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/image/white_knight.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/image/white_bishop.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/Assignment1.1.doxyfile</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/image/black_king.gif</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.2/src/testSuit</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/image/white_king.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/.project</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/ManualTest.pdf</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/image/black_pawn.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/pieces/Pieces.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/chessGame/MoveValidCheck.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/image/white_pawn.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/image/black_rook.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/pieces/Queen.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/testSuit/BeforeTest.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.2/src/customerPieceTest</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/image/white_rook.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/.classpath</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/testSuit/PawnTest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/pieces/ArchBishop.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/pieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/pieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/gui/Graphic.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/gui/TestGraphic.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/testSuit/QueenTest.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.2/src/gui</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.2/.settings</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/testSuit/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/testSuit/BishopTest.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.2/image</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/testSuit/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/src/chessGame/MyGame.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.2/src/chessGame</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.2/src</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/pieces/Rook.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/pieces/Chancellor.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/chessGame/ConditionCheck.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.2/src/pieces</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.2/image/black_queen.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/src/chessGame/MoveExecute.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.2/image/white_queen.gif</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6825">
+<author>huangfu2</author>
+<date>2013-02-08T21:49:50.405167Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.2</path>
+</paths>
+<msg>Share project "Assignment1.2" into "https://subversion.ews.illinois.edu/svn/sp13-cs242/huangfu2"</msg>
+</logentry>
+<logentry
+   revision="6818">
+<author>huangfu2</author>
+<date>2013-02-08T21:43:00.529084Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/huangfu2/Assignment1.1/src/gui/UserInterface.java</path>
+<path
+   action="M"
+   kind="file">/huangfu2/Assignment1.1/src/chessGame/MoveValidCheck.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/testSuit/BeforeTest.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.1/src/customerPieceTest</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/testSuit/PawnTest.java</path>
+<path
+   kind="file"
+   action="D">/huangfu2/Assignment1.1/src/testSuit/ChessTest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/testSuit/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/testSuit/QueenTest.java</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/huangfu2/Assignment1.1/src/testSuit/CustomerPiecesTest.java"
+   copyfrom-rev="5576">/huangfu2/Assignment1.1/src/customerPieceTest/CustomerPiecesTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/gui/Graphic.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/gui/TestGraphic.java</path>
+<path
+   kind="file"
+   action="M">/huangfu2/Assignment1.1/src/chessGame/GameLoop.java</path>
+<path
+   kind="file"
+   action="M">/huangfu2/Assignment1.1/Assignment1.1.doxyfile</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/testSuit/KnightTest.java</path>
+<path
+   action="D"
+   kind="file">/huangfu2/Assignment1.1/src/gui/GUITest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/testSuit/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/testSuit/KingTest.java</path>
+<path
+   action="M"
+   kind="file">/huangfu2/Assignment1.1/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/huangfu2/Assignment1.1/src/chessGame/MyGame.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/ManualTest.pdf</path>
+<path
+   action="D"
+   kind="file">/huangfu2/Assignment1.1/src/testSuit/CustomerPiecesTest.java</path>
+</paths>
+<msg>Assignment1.2</msg>
+</logentry>
+<logentry
+   revision="5588">
+<author>huangfu2</author>
+<date>2013-02-01T21:55:15.590629Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/huangfu2/Assignment1.1/src/chessGame/MoveExecute.java</path>
+<path
+   action="M"
+   kind="file">/huangfu2/Assignment1.1/src/pieces/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/huangfu2/Assignment1.1/src/chessGame/MyGame.java</path>
+<path
+   kind="file"
+   action="M">/huangfu2/Assignment1.1/src/pieces/Pieces.java</path>
+<path
+   kind="file"
+   action="M">/huangfu2/Assignment1.1/src/chessGame/GameLoop.java</path>
+<path
+   kind="file"
+   action="M">/huangfu2/Assignment1.1/src/pieces/Rook.java</path>
+<path
+   action="M"
+   kind="file">/huangfu2/Assignment1.1/src/chessGame/ConditionCheck.java</path>
+<path
+   kind="file"
+   action="M">/huangfu2/Assignment1.1/src/chessGame/MoveValidCheck.java</path>
+<path
+   action="M"
+   kind="file">/huangfu2/Assignment1.1/src/gui/UserInterface.java</path>
+</paths>
+<msg>chess </msg>
+</logentry>
+<logentry
+   revision="5576">
+<author>huangfu2</author>
+<date>2013-02-01T21:29:52.869479Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/image/black_bishop.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/image/black_knight.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/image/white_knight.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/image/white_bishop.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/Assignment1.1.doxyfile</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/image/black_king.gif</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.1/src/gui</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.1/src/testSuit</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.1/.settings</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/image/white_king.gif</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.1/image</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/.project</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/chessGame/MyGame.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.1/src/chessGame</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/pieces/Pieces.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/image/black_pawn.gif</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.1/src</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/chessGame/ConditionCheck.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/gui/UserInterface.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/image/white_pawn.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/image/black_rook.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/image/black_queen.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/.classpath</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/image/white_rook.gif</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/testSuit/ChessTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/pieces/ArchBishop.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/image/white_queen.gif</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/pieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/pieces/King.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/chessGame/GameLoop.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/gui/GUITest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/testSuit/CustomerPiecesTest.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/pieces/Chancellor.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/chessGame/MoveValidCheck.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.1/src/pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.1/src/chessGame/MoveExecute.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.1/src/pieces</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.1</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3831">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:56.772807Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.0/src</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.0/src/Chess/MyChess.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.0/src/TestSuit</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/Assignment1.0/src/Chess</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.0/.settings</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.0/.classpath</path>
+<path
+   action="A"
+   kind="file">/huangfu2/Assignment1.0/src/TestSuit/ChessTest.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/Assignment1.0/.project</path>
+</paths>
+<msg>Finish the chess game!!</msg>
+</logentry>
+<logentry
+   revision="3830">
+<author>huangfu2</author>
+<date>2013-01-25T09:30:24.698180Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/huangfu2/Assignment1.0</path>
+</paths>
+<msg>Finish the chess game!</msg>
+</logentry>
+<logentry
+   revision="2884">
+<author>huangfu2</author>
+<date>2013-01-18T18:09:38.746862Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/mp3/Makefile</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/mp3/doc/shell.html</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/mp3</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/mp3/testlog</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/mp3/log.c</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/mp3/testlog.c</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/mp3/doc/main.dox</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/mp3/doc/cs241.html</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/mp3/doc</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/mp3/log.h</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/mp3/shell</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/mp3/doc/Doxyfile</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/mp3/shell.c</path>
+</paths>
+<msg>my code for assignmet0</msg>
+</logentry>
+<logentry
+   revision="2883">
+<author>huangfu2</author>
+<date>2013-01-18T18:08:35.108310Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/huangfu2/assignment0_part3</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2882">
+<author>huangfu2</author>
+<date>2013-01-18T18:06:47.001187Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/Makefile</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/doc/shell.html</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/HW0/doc</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/doc/toDoList</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/HW0/javadoc.xml</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/HW0/COPYING</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/hw0/bin</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/hw0/src/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/bin/lanSimulation/Network.class</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/log.c</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/hw0/bin/lanSimulation/tests</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/log.h</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/src/lanSimulation/internals/Packet.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/HW0</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/doc/README</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/HW0/src/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/testlog</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/HW0/src/lanSimulation</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/HW0/.settings</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/src/lanSimulation/Network.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/HW0/.project</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/Assigment0_Part3</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/HW0/src</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/hw0/bin/lanSimulation</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/doc</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/useOutput.txt</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/doc/LANSimulationDocument.pdf</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/HW0/.classpath</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/hw0/doc</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/src/lanSimulation/LANSimulation.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/javadoc.xml</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/HW0/doc/toDoList</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/hw0/COPYING</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/HW0/src/lanSimulation/tests</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/HW0/bin</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/src/lanSimulation/internals/Node.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/shell.c</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/Assigment0_Part3/mp3</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/doc/cs241.html</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/hw0</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/HW0/doc/README</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/hw0/src/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/hw0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/doc/main.dox</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/doc/Doxyfile</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/hw0/bin/lanSimulation/internals/Node.class</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/testlog.c</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/assignment0_part3/hw0/bin/lanSimulation/internals</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/assignment0_part3/hw0/src</path>
+<path
+   action="A"
+   kind="file">/huangfu2/assignment0_part3/HW0/useOutput.txt</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   kind="file"
+   action="A">/huangfu2/assignment0_part3/Assigment0_Part3/mp3/shell</path>
+</paths>
+<msg>assignment0_part3</msg>
+</logentry>
+<logentry
+   revision="2089">
+<author>huangfu2</author>
+<date>2013-01-17T17:38:08.532624Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/huangfu2/cs242</path>
+<path
+   kind="dir"
+   action="D">/huangfu2/lanSimulation</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="1648">
+<author>huangfu2</author>
+<date>2013-01-17T03:52:02.120660Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/huangfu2/HW0/bin/lanSimulation</path>
+<path
+   action="M"
+   kind="file">/huangfu2/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/HW0/.settings</path>
+<path
+   action="M"
+   kind="file">/huangfu2/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/.classpath</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/.project</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="932">
+<author>huangfu2</author>
+<date>2013-01-16T07:33:20.086388Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/huangfu2/cs242/hw0/src/lanSimulation/tests</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/cs242/hw0/bin</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/COPYING</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/doc/RefactoringAssignment.pdf</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/src/lanSimulation/internals/Node.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/src/lanSimulation/Network.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/bin/lanSimulation/internals/Node.class</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/bin/lanSimulation/Network.class</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/cs242/hw0/bin/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/cs242/hw0/bin/lanSimulation</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/cs242/hw0/src</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/cs242/hw0/bin/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/useOutput.txt</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/doc/LANSimulationDocument.pdf</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/src/lanSimulation/internals/Packet.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/cs242/hw0</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/expectedOutput.txt</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/cs242</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/doc/README</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/cs242/hw0/src/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="file">/huangfu2/cs242/hw0/src/lanSimulation/LANSimulation.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/cs242/hw0/doc</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/cs242/hw0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/javadoc.xml</path>
+<path
+   kind="file"
+   action="A">/huangfu2/cs242/hw0/doc/toDoList</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="927">
+<author>huangfu2</author>
+<date>2013-01-16T07:22:25.044803Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/src/lanSimulation/Network.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/bin/lanSimulation/internals/Node.class</path>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/bin/lanSimulation/Network.class</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/HW0/bin/lanSimulation/internals</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/HW0/bin/lanSimulation</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/HW0/src</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/HW0/bin/lanSimulation/tests</path>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/useOutput.txt</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/HW0</path>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/doc/README</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/HW0/src/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/HW0/doc</path>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/doc/toDoList</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/javadoc.xml</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/HW0/src/lanSimulation</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/HW0/src/lanSimulation/tests</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/HW0/bin</path>
+<path
+   action="A"
+   kind="file">/huangfu2/HW0/COPYING</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/HW0/bin/lanSimulation/LANSimulation.class</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="926">
+<author>huangfu2</author>
+<date>2013-01-16T07:20:41.551407Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/huangfu2/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/lanSimulation/internals/Packet.java</path>
+<path
+   kind="file"
+   action="A">/huangfu2/lanSimulation/Network.java</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="file">/huangfu2/lanSimulation/LANSimulation.java</path>
+<path
+   action="A"
+   kind="file">/huangfu2/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/lanSimulation</path>
+<path
+   kind="dir"
+   action="A">/huangfu2/lanSimulation/tests</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="624">
+<author>huangfu2</author>
+<date>2013-01-16T00:25:30.075262Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/huangfu2/shopping</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="621">
+<author>huangfu2</author>
+<date>2013-01-16T00:11:35.888714Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir"
+   copyfrom-path="/huangfu2/grocery"
+   copyfrom-rev="620">/huangfu2/shopping</path>
+<path
+   kind="dir"
+   action="D">/huangfu2/grocery</path>
+</paths>
+<msg>Moved grocery to shopping for clarity</msg>
+</logentry>
+<logentry
+   revision="620">
+<author>huangfu2</author>
+<date>2013-01-16T00:05:40.094798Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/huangfu2/grocery/list2.txt</path>
+</paths>
+<msg>Discovered that I want to be a vegetarian</msg>
+</logentry>
+<logentry
+   revision="617">
+<author>huangfu2</author>
+<date>2013-01-15T23:46:15.048922Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/huangfu2/grocery/list2.txt</path>
+</paths>
+<msg>Adding more vegetables</msg>
+</logentry>
+<logentry
+   revision="616">
+<author>huangfu2</author>
+<date>2013-01-15T23:39:31.180320Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/huangfu2/grocery/list1.txt</path>
+</paths>
+<msg>Need to buy more fruit</msg>
+</logentry>
+<logentry
+   revision="610">
+<author>huangfu2</author>
+<date>2013-01-15T23:24:13.387014Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/huangfu2/grocery/list1.txt</path>
+<path
+   action="A"
+   kind="file">/huangfu2/grocery/list2.txt</path>
+<path
+   action="A"
+   kind="dir">/huangfu2/grocery</path>
+</paths>
+<msg>importing grocery project</msg>
+</logentry>
+<logentry
+   revision="59">
+<author>root</author>
+<date>2013-01-14T15:00:10.921214Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/huangfu2</path>
+</paths>
+<msg>created directory huangfu2</msg>
+</logentry>
+</log>

@@ -1,0 +1,1120 @@
+package Chess;
+
+import java.util.Scanner;
+
+public class MyChess {
+
+	static int WHITE = 1; // color of player that can move: 1 for white, 2 for
+							// black
+	static int BLACK = 2;
+
+	// The various states of the game
+	static final int PLAYING = 0;
+	static final int WHITE_WIN = 1;
+	static final int BLACK_WIN = 2;
+
+	static int currentState; // PLAYING, WHITE_WIN, BLACK_WIN
+	static int currentPlayer; // WHITE, BLACK
+	static int currentPosition;
+
+	static Scanner in = new Scanner(System.in);
+
+	static int[] board = new int[100];
+	/*
+	 * The program starts here
+	 */
+	public static void main(String[] args){
+		/*
+		 * Initialize the game board
+		 */
+		newGame();
+		
+		/*
+		 * Print the board
+		 */
+		printBoard();
+		
+		/*
+		 * Game loop
+		 */
+		do {
+			/*
+			 * Players begin to play
+			 */
+			playerMove(currentPlayer);
+			
+			printBoard();
+			
+			/*
+			 * Switch player
+			 */
+			switchPlayer();
+		} while( currentState == PLAYING );
+		
+		
+		
+	}
+	
+	/*
+	 * 12*10 board. For each piece, the 1st digit is color: 2 for black, 1 for
+	 * white. The 2nd digit is the type of piece: 1 for pawn, 2 for knight, 3
+	 * for bishop, 4 for rook, 5 for queen, 6 for king
+	 */
+	static int[] orignalPosition = { 
+			99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 
+			99, 24, 22, 23, 25, 26, 23, 22, 24, 99, 
+			99, 21, 21, 21, 21, 21, 21, 21, 21, 99, 
+			99, 00, 00, 00, 00, 00, 00, 00, 00, 99, 
+			99, 00, 00, 00, 00, 00, 00, 00, 00, 99, 
+			99, 00, 00, 00, 00, 00, 00, 00, 00, 99, 
+			99, 00, 00, 00, 00, 00, 00, 00, 00, 99, 
+			99, 11, 11, 11, 11, 11, 11, 11, 11, 99, 
+			99, 14, 12, 13, 15, 16, 13, 12, 14, 99, 
+			99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 
+			};
+
+	public static void newGame() {
+
+		for (int i = 0; i < 100; i++) {
+			board[i] = orignalPosition[i];
+		}
+
+		currentState = PLAYING; // begin to play
+		currentPlayer = WHITE; // WHITE first
+
+	}
+
+	public static void playerMove(int playerColor) {
+
+		boolean validPick = false;
+		
+	
+		/*
+		 * Check if player choose right color
+		 */
+		do {
+			int chosenPieceIndex;
+				
+			if (playerColor == WHITE) {
+				if( isChecked() ){
+					System.out.println("Warning, Player 'White', your king is under checked");
+				}
+				System.out
+						.println("Player 'White', please choose your piece: ");
+			} else {
+				if( isChecked() ){
+					System.out.println("Warning, Player 'Black', your king is under checked");
+				}
+				System.out
+						.println("Player 'Black', please choose your piece: ");
+			}
+
+			chosenPieceIndex = in.nextInt(); // the index coordinate
+
+			/*
+			 * Check if player chooses the right color
+			 */
+			if (board[chosenPieceIndex] / 10 == currentPlayer) {
+
+
+				System.out
+						.println("Please choose a valid position you want to move: ");
+				
+				int chosenPosition = in.nextInt();
+
+				/*
+				 * Check if it is not a valid move
+				 */
+				if (!isValidMove(chosenPieceIndex, chosenPosition)) {
+					System.out.println("This move to " + chosenPosition
+							+ " is not a valid move.");
+					validPick = false;
+				} else {
+					validPick = true;
+					executeMove(chosenPieceIndex, chosenPosition);
+				}
+			}
+
+		} while (!validPick);
+
+		
+
+	}
+
+	/*
+	 * Check if the end position is out of the board edge, or if the end
+	 * position a valid move
+	 */
+	public static boolean isValidMove(int piecePosition, int movePosition) {
+
+		System.out.println("Number is " + board[piecePosition]);
+		
+		if (board[movePosition] == 99){
+			System.out.println("Out of the edge...");
+			return false; // out of the edge
+		}
+		if (piecePosition == movePosition){
+			System.out.println("Please make a move...");
+			return false;
+		}
+		
+		int numDiagonal;
+		int checkPosition;
+		/*
+		 * Define which piece
+		 */
+		switch (board[piecePosition] % 10) {
+		case 1: // pawn
+			System.out.println("This is pawn!!");
+			
+			if (currentPlayer == WHITE) {
+				
+				// move two steps at the beginning
+
+				// move straight one step
+				if (piecePosition == (movePosition + 10)) {
+					// check if there is piece on the movePosition
+					if (board[movePosition] == 0) {
+						return true;
+					}
+
+					// there is a piece on the movePosition
+					else return false;
+				
+				}
+
+				// move right diagonal only if there is an enemy
+				else if (piecePosition == (movePosition + 9)) {
+					// there is an enemy
+					if (board[movePosition] / 10 == BLACK) {
+						return true;
+					} else
+						return false;
+				}
+				// move left diagonal only if there is an enemy
+				else if (piecePosition == (movePosition + 11)) {
+					if (board[movePosition] / 10 == BLACK)
+						return true;
+					else
+						return false;
+				}
+				//any other move is invalid
+				else return false;
+			}
+
+			if (currentPlayer == BLACK) {
+				// move two steps at the beginning
+
+				// move straight one step
+				if (piecePosition == (movePosition - 10)) {
+					// check if there is piece on the movePosition
+					if (board[movePosition] == 0) {
+						return true;
+					}
+
+					// there is a own piece on the movePosition
+					else return false;
+	
+				}
+
+				// move left diagonal only if there is an enemy
+				else if (piecePosition == (movePosition - 9)) {
+					// there is an enemy
+					if (board[movePosition] / 10 == WHITE) {
+						return true;
+					} else
+						return false;
+				}
+				// move right diagonal only if there is an enemy
+				else if (piecePosition == (movePosition - 11)) {
+					if (board[movePosition] / 10 == WHITE)
+						return true;
+					else
+						return false;
+				}
+				//any other position
+				else return false;
+			}
+
+		case 2: // knight
+			System.out.println("This is knight!!");
+			/*
+			 * --
+			 *   |
+			 */
+			if ( piecePosition == (movePosition  - 12) ){
+				if( board[movePosition] / 10 == currentPlayer )
+						return false;
+				else return true;
+			}
+			/*
+			 * |_ _
+			 */
+			else if ( piecePosition == ( movePosition + 12 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+						return false;
+				else return true;
+			}
+			/*
+			 * |
+			 * |_
+			 */
+			else if ( piecePosition == ( movePosition - 21 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+						return false;
+				else return true;
+			}
+			/* _
+			 *  |
+			 *  |
+			 */
+			else if ( piecePosition == ( movePosition + 21 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+					return false;
+				else return true;
+			}
+			/*
+			 *  |
+			 * _|
+			 */
+			else if ( piecePosition == ( movePosition - 19 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+					return false;
+				else return true;
+			}
+			/*  _
+			 * |
+			 * | 
+			 */
+			else if ( piecePosition == ( movePosition + 19 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+					return false;
+				else return true;
+			}
+			/*  _ _
+			 * |
+			 */
+			else if ( piecePosition == ( movePosition - 8 ) ){
+				if( board[movePosition] / 10 == currentPlayer)
+					return false;
+				else return true;
+			}
+			/*
+			 * _ _|
+			 */
+			else if ( piecePosition == ( movePosition + 8 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+					return false;
+				else return true;
+			}
+			
+			//any other position
+			else return false;
+					
+		case 3: // bishop
+			System.out.println("This is bishop!!");
+			/*
+			 * Forward left
+			 */
+			if ( (movePosition - piecePosition) > 0 && (movePosition - piecePosition) % 9 == 0 ) {
+				//check every diagonal 
+				numDiagonal = (movePosition - piecePosition) / 9;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition + 9;
+					if( board[checkPosition] != 0 )			//if there is any other piece on the way, then false
+							return false;
+				}
+				
+				if( board[movePosition] / 10 == currentPlayer ) {	// check the last step
+					return false;
+				}
+				else return true;
+				
+			}
+			/*
+			 * Forward right
+			 */
+			else if ( (movePosition - piecePosition) > 0 && (movePosition - piecePosition) % 11 == 0 ){
+				//check every diagonal 
+				numDiagonal = (movePosition - piecePosition) / 11;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition + 11;
+					if( board[checkPosition] != 0 )			//if there is any other piece on the way, then false
+							return false;
+				}
+				
+				if( board[movePosition] / 10 == currentPlayer ) {	// check the last step
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Backward left
+			 */
+			else if ( (piecePosition - movePosition) > 0 && (piecePosition - movePosition) % 11 == 0 ){
+				//check every diagonal 
+				numDiagonal = (piecePosition - movePosition) / 11;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition - 11;
+					if( board[checkPosition] != 0 )			//if there is any other piece on the way, then false
+							return false;
+				}
+				
+				if( board[movePosition] / 10 == currentPlayer ) {	// check the last step
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Backward right
+			 */
+			else if ( (piecePosition - movePosition) > 0 && (piecePosition - movePosition) % 9 == 0 ){
+				//check every diagonal 
+				numDiagonal = (piecePosition - movePosition) / 9;
+				
+				System.out.println("numDiagonal is: " + numDiagonal);
+				
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition - 9;
+					if( board[checkPosition] != 0 ){			//if there is any other piece on the way, then false
+						
+						System.out.println("baord is: " + board[checkPosition]);
+						
+						return false;
+					}
+				}
+				
+				System.out.println("000000000000");
+				
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ) {	// check the last step
+					System.out.println("11111111111");
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Any other move should be invalid 
+			 */
+			else return false;
+
+		case 4: // rook
+			System.out.println("This is rook!!");
+			/*
+			 * Forward
+			 */
+			if ( (movePosition - piecePosition) > 0 && (movePosition - piecePosition) % 10 == 0 ){
+				//check every step
+				numDiagonal = (movePosition - piecePosition) / 10;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition + 10;
+					if( board[checkPosition] != 0 )
+						return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ) {
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Backward
+			 */
+			else if ( (piecePosition - movePosition) > 0 && (piecePosition - movePosition) % 10 == 0 ){
+				//check every step
+				numDiagonal = (piecePosition - movePosition) / 10;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition - 10;
+					if( board[checkPosition] != 0 )
+						return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ) {
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Left
+			 */
+			else if ( (piecePosition - movePosition) > 0 && (piecePosition - movePosition) <= 7 ){
+				//check every step
+				checkPosition = piecePosition;
+				for( int i = 1; i < (piecePosition - movePosition); i++ ){
+					checkPosition = checkPosition - 1;
+					if( board[checkPosition] != 0 )
+						return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ){
+					return false;
+				}
+				else if( board[movePosition] == 99 ){			//the last step is out of edge
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Right
+			 */
+			else if ( (movePosition - piecePosition) > 0 && (movePosition - piecePosition) <= 7 ){
+				//check every step
+				checkPosition = piecePosition;
+				for( int i = 1; i < (piecePosition - movePosition); i++ ){
+					checkPosition = checkPosition + 1;
+					if( board[checkPosition] != 0 )
+						return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ){
+					return false;
+				}
+				else if( board[movePosition] == 99 ){			//the last step is out of edge
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Any other move should be invalid
+			 */
+			else return false;
+
+		case 5: // queen
+			System.out.println("This is queen!!");
+			/*
+			 * Forward left
+			 */
+			if ( (movePosition - piecePosition) > 0 && (movePosition - piecePosition) % 9 == 0 ) {
+				//check every diagonal 
+				numDiagonal = (movePosition - piecePosition) / 9;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition + 9;
+					if( board[checkPosition] != 0 )			//if there is any other piece on the way, then false
+							return false;
+				}
+				
+				if( board[movePosition] / 10 == currentPlayer ) {	// check the last step
+					return false;
+				}
+				else return true;
+				
+			}
+			/*
+			 * Forward right
+			 */
+			else if ( (movePosition - piecePosition) > 0 && (movePosition - piecePosition) % 11 == 0 ){
+				//check every diagonal 
+				numDiagonal = (movePosition - piecePosition) / 11;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition + 11;
+					if( board[checkPosition] != 0 )			//if there is any other piece on the way, then false
+							return false;
+				}
+				
+				if( board[movePosition] / 10 == currentPlayer ) {	// check the last step
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Backward left
+			 */
+			else if ( (piecePosition - movePosition) > 0 && (piecePosition - movePosition) % 11 == 0 ){
+				//check every diagonal 
+				numDiagonal = (piecePosition - movePosition) / 11;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition - 11;
+					if( board[checkPosition] != 0 )			//if there is any other piece on the way, then false
+							return false;
+				}
+				
+				if( board[movePosition] / 10 == currentPlayer ) {	// check the last step
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Backward right
+			 */
+			else if ( (piecePosition - movePosition) > 0 && (piecePosition - movePosition) % 9 == 0 ){
+				//check every diagonal 
+				numDiagonal = (piecePosition - movePosition) / 9;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition - 9;
+					if( board[checkPosition] != 0 )			//if there is any other piece on the way, then false
+							return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ) {	// check the last step
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Forward
+			 */
+			if ( (movePosition - piecePosition) > 0 && (movePosition - piecePosition) % 10 == 0 ){
+				//check every step
+				numDiagonal = (movePosition - piecePosition) / 10;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition + 10;
+					if( board[checkPosition] != 0 )
+						return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ) {
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Backward
+			 */
+			else if ( (piecePosition - movePosition) > 0 && (piecePosition - movePosition) % 10 == 0 ){
+				//check every step
+				numDiagonal = (piecePosition - movePosition) / 10;
+				checkPosition = piecePosition;
+				for( int i = 1; i < numDiagonal; i++ ){
+					checkPosition = checkPosition - 10;
+					if( board[checkPosition] != 0 )
+						return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ) {
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Left
+			 */
+			else if ( (piecePosition - movePosition) > 0 && (piecePosition - movePosition) <= 7 ){
+				//check every step
+				checkPosition = piecePosition;
+				for( int i = 1; i < (piecePosition - movePosition); i++ ){
+					checkPosition = checkPosition - 1;
+					if( board[checkPosition] != 0 )
+						return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ){
+					return false;
+				}
+				else if( board[movePosition] == 99 ){			//the last step is out of edge
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Right
+			 */
+			else if ( (movePosition - piecePosition) > 0 && (movePosition - piecePosition) <= 7 ){
+				//check every step
+				checkPosition = piecePosition;
+				for( int i = 1; i < (piecePosition - movePosition); i++ ){
+					checkPosition = checkPosition + 1;
+					if( board[checkPosition] != 0 )
+						return false;
+				}
+				//check the last step
+				if( board[movePosition] / 10 == currentPlayer ){
+					return false;
+				}
+				else if( board[movePosition] == 99 ){			//the last step is out of edge
+					return false;
+				}
+				else return true;
+			}
+			/*
+			 * Any other move should be invalid
+			 */
+			else return false;
+			
+
+		case 6: // king
+			System.out.println("This is king!!");
+			/*
+			 * Forward
+			 */
+			if ( piecePosition == (movePosition  - 10) ){
+				if( board[movePosition] / 10 == currentPlayer )
+						return false;
+				else return true;
+			}
+			/*
+			 * Backward
+			 */
+			else if ( piecePosition == ( movePosition + 10 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+						return false;
+				else return true;
+			}
+			/*
+			 * Right
+			 */
+			else if ( piecePosition == ( movePosition - 1 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+						return false;
+				else return true;
+			}
+			/* 
+			 * Left
+			 */
+			else if ( piecePosition == ( movePosition + 1 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+					return false;
+				else return true;
+			}
+			/*
+			 * Backward left diagonal
+			 */
+			else if ( piecePosition == ( movePosition + 11 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+					return false;
+				else return true;
+			}
+			/*  
+			 * Backward right diagonal
+			 */
+			else if ( piecePosition == ( movePosition + 9 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+					return false;
+				else return true;
+			}
+			/*  
+			 * Forward left diagonal
+			 */
+			else if ( piecePosition == ( movePosition - 9 ) ){
+				if( board[movePosition] / 10 == currentPlayer)
+					return false;
+				else return true;
+			}
+			/*
+			 * Forward right diagonal
+			 */
+			else if ( piecePosition == ( movePosition - 11 ) ){
+				if( board[movePosition] / 10 == currentPlayer )
+					return false;
+				else return true;
+			}
+			
+			//any other position
+			else return false;
+
+		}
+
+		return false;
+	}
+
+	/*
+	 * Execute the move
+	 */
+	public static void executeMove(int piecePosition, int movePosition) {
+		System.out.println("Going to execute the Move!!!");
+		
+		/*
+		 * If the move-to position is 00 (empty)
+		 * Update the board
+		 */
+		if( board[movePosition] == 0 ){
+			board[movePosition] = board[piecePosition];
+			board[piecePosition] = 0;
+		}
+		
+		/*
+		 * If there is an enemy at the move-to position
+		 * Kill the enemy, update the board
+		 */
+		else if( board[movePosition] / 10 != currentPlayer ){
+			/*
+			 * BLACK's piece is be killed
+			 */
+			if( currentPlayer == WHITE ){
+				switch( board[movePosition] % 10 ){
+				case 1:		//pawn
+					System.out.println("BLACK's pawn is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 2:		//knight
+					System.out.println("BLACK's knight is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 3:		//bishop
+					System.out.println("BLACK's bishop is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 4:		//rook
+					System.out.println("BLACK's rook is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 5:		//queen
+					System.out.println("BLACK's queen is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 6:		//king
+					System.out.println("BLACK's king is be killed! WHITE player won!!!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					currentState = WHITE_WIN;
+					return;
+				}
+			}
+			/*
+			 * WHITE's piece is be killed
+			 */
+			else if( currentPlayer == BLACK ){
+				switch( board[movePosition] % 10 ){
+				case 1:		//pawn
+					System.out.println("WHITE's pawn is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 2:		//knight
+					System.out.println("WHITE's knight is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 3:		//bishop
+					System.out.println("WHITE's bishop is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 4:		//rook
+					System.out.println("WHITE's rook is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 5:		//queen
+					System.out.println("WHITE's queen is be killed!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					return;
+					
+				case 6:		//king
+					System.out.println("WHIET's king is be killed! BLACK player won!!!");
+					board[movePosition] = board[piecePosition];
+					board[piecePosition] = 0;
+					currentState = BLACK_WIN;
+					return;
+				}
+			}
+		}
+		
+	}
+
+	/*
+	 * 
+	 */
+	public static boolean isChecked() {
+		//find the position of the king
+		int kingPosition = 0;
+		
+		for( int i = 11; i < 89; i++ ){
+			if( (board[i] / 10 == currentPlayer ) && (board[i] % 10 == 6) ){
+				kingPosition = i;
+				break;
+			}
+		}
+		
+		//knight
+		if( (kingPosition - 21) >= 0 && board[kingPosition - 21] % 10 == 2 && board[kingPosition - 21] / 10 != currentPlayer ) {
+			return true;
+		}
+		
+		if( (kingPosition + 21) < 100 && board[kingPosition + 21] % 10 == 2 && board[kingPosition + 21] / 10 != currentPlayer ) {
+			return true;
+		}
+		
+		if( (kingPosition - 19) >= 0 && board[kingPosition - 19] % 10 == 2 && board[kingPosition - 19] / 10 != currentPlayer ) {
+			return true;
+		}
+		
+		if( (kingPosition + 19) < 100 && board[kingPosition + 19] % 10 == 2 && board[kingPosition + 19] / 10 != currentPlayer ) {
+			return true;
+		}
+		
+		if( board[kingPosition - 8] % 10 == 2 && board[kingPosition - 8] / 10 != currentPlayer ) {
+			return true;
+		}
+		
+		if( board[kingPosition + 8] % 10 == 2 && board[kingPosition + 8] / 10 != currentPlayer ) {
+			return true;
+		}
+		
+		if( (kingPosition - 12) >= 0 && board[kingPosition - 12] % 10 == 2 && board[kingPosition - 12] / 10 != currentPlayer ) {
+			return true;
+		}
+		
+		if( (kingPosition + 12) < 100 && board[kingPosition + 12] % 10 == 2 && board[kingPosition + 12] / 10 != currentPlayer ) {
+			return true;
+		}
+		
+		//bishop, queen
+		int checkPosition = kingPosition;
+		boolean done = false;
+		do {
+			checkPosition -= 9;
+			
+			if( board[checkPosition] == 99 ) {		//touch the edge
+				done = true;
+			}
+			else if( board[checkPosition] / 10 == currentPlayer ) {
+				done = true;
+			}
+			else if( board[checkPosition] == 0 ) {
+				continue;
+			}
+			else if( board[checkPosition] % 10 == 3 || board[checkPosition] % 10 == 5 ) {
+				return true;
+			}
+			else done = true;
+			
+		} while(!done);
+		
+		checkPosition = kingPosition;
+		done = false;
+		do {
+			checkPosition += 9;
+			
+			if( board[checkPosition] == 99 ) {		//touch the edge
+				done = true;
+			}
+			else if( board[checkPosition] / 10 == currentPlayer ) {
+				done = true;
+			}
+			else if( board[checkPosition] == 0 ) {
+				continue;
+			}
+			else if( board[checkPosition] % 10 == 3 || board[checkPosition] % 10 == 5 ) {
+				return true;
+			}
+			else done = true;
+			
+		} while(!done);
+		
+		checkPosition = kingPosition;
+		done = false;
+		do {
+			checkPosition -= 11;
+			
+			if( board[checkPosition] == 99 ) {		//touch the edge
+				done = true;
+			}
+			else if( board[checkPosition] / 10 == currentPlayer ) {
+				done = true;
+			}
+			else if( board[checkPosition] == 0 ) {
+				continue;
+			}
+			else if( board[checkPosition] % 10 == 3 || board[checkPosition] % 10 == 5 ) {
+				return true;
+			}
+			else done = true;
+			
+		} while(!done);
+		
+		checkPosition = kingPosition;
+		done = false;
+		do {
+			checkPosition += 11;
+			
+			if( board[checkPosition] == 99 ) {		//touch the edge
+				done = true;
+			}
+			else if( board[checkPosition] / 10 == currentPlayer ) {
+				done = true;
+			}
+			else if( board[checkPosition] == 0 ) {
+				continue;
+			}
+			else if( board[checkPosition] % 10 == 3 || board[checkPosition] % 10 == 5 ) {
+				return true;
+			}
+			else done = true;
+			
+		} while(!done);
+		
+		//rook, queen
+		checkPosition = kingPosition;
+		done = false;
+		do {
+			checkPosition -= 10;
+			
+			if( board[checkPosition] == 99 ) {		//touch the edge
+				done = true;
+			}
+			else if( board[checkPosition] / 10 == currentPlayer ) {
+				done = true;
+			}
+			else if( board[checkPosition] == 0 ) {
+				continue;
+			}
+			else if( board[checkPosition] % 10 == 4 || board[checkPosition] % 10 == 5 ) {
+				return true;
+			}
+			else done = true;
+			
+		} while(!done);
+		
+		checkPosition = kingPosition;
+		done = false;
+		do {
+			checkPosition += 10;
+			
+			if( board[checkPosition] == 99 ) {		//touch the edge
+				done = true;
+			}
+			else if( board[checkPosition] / 10 == currentPlayer ) {
+				done = true;
+			}
+			else if( board[checkPosition] == 0 ) {
+				continue;
+			}
+			else if( board[checkPosition] % 10 == 4 || board[checkPosition] % 10 == 5 ) {
+				return true;
+			}
+			else done = true;
+			
+		} while(!done);
+		
+		checkPosition = kingPosition;
+		done = false;
+		do {
+			checkPosition -= 1;
+			
+			if( board[checkPosition] == 99 ) {		//touch the edge
+				done = true;
+			}
+			else if( board[checkPosition] / 10 == currentPlayer ) {
+				done = true;
+			}
+			else if( board[checkPosition] == 0 ) {
+				continue;
+			}
+			else if( board[checkPosition] % 10 == 4 || board[checkPosition] % 10 == 5 ) {
+				return true;
+			}
+			else done = true;
+			
+		} while(!done);
+		
+		checkPosition = kingPosition;
+		done = false;
+		do {
+			checkPosition += 1;
+			
+			if( board[checkPosition] == 99 ) {		//touch the edge
+				done = true;
+			}
+			else if( board[checkPosition] / 10 == currentPlayer ) {
+				done = true;
+			}
+			else if( board[checkPosition] == 0 ) {
+				continue;
+			}
+			else if( board[checkPosition] % 10 == 4 || board[checkPosition] % 10 == 5 ) {
+				return true;
+			}
+			else done = true;
+			
+		} while(!done);
+		
+		//pawn
+		if( currentPlayer == WHITE ){
+			if( board[kingPosition - 11] % 10 == 1 && board[kingPosition - 11] / 10 == BLACK){
+				return true;
+			}
+			if( board[kingPosition - 9] % 10 == 1 && board[kingPosition - 9] / 10 == BLACK ){
+				return true;
+			}
+		}
+		else {
+			if( board[kingPosition + 11] % 10 == 1 && board[kingPosition + 11] / 10 == WHITE  ){
+				return true;
+			}
+			if( board[kingPosition + 9] % 10 == 1 && board[kingPosition + 9] / 10 == WHITE ){
+				return true;
+			}
+		}
+		
+		//king
+		if (board[kingPosition + 1] % 10 == 6)
+			return true;
+		if (board[kingPosition - 1] % 10 == 6)
+			return true;
+		if (board[kingPosition + 10] % 10 == 6)
+			return true;
+		if (board[kingPosition - 10] % 10 == 6)
+			return true;
+		if (board[kingPosition + 11] % 10 == 6)
+			return true;
+		if (board[kingPosition - 11] % 10 == 6)
+			return true;
+		if (board[kingPosition + 9] % 10 == 6)
+			return true;
+		if (board[kingPosition - 9] % 10 == 6)
+			return true;
+
+		return false;
+
+	}
+	
+	/*
+	 * Print the game board
+	 */
+	public static void printBoard(){
+		for( int i = 0; i < 100; i++ ){
+			System.out.print(board[i] + " ");
+			if( board[i] == 0 )
+				System.out.print(" ");
+			if( (i + 1) % 10 == 0 )
+				System.out.print('\n');
+		}
+		System.out.println("------------------------------------");
+	}
+	
+	/*
+	 * Switch player
+	 */
+	public static void switchPlayer(){
+		if( currentPlayer == WHITE )
+			currentPlayer = BLACK;
+		else
+			currentPlayer = WHITE;
+	}
+
+
+	
+	
+	
+	
+	
+	
+}
+
+

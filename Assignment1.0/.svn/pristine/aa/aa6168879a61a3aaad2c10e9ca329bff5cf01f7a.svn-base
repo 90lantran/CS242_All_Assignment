@@ -1,0 +1,360 @@
+package TestSuit;
+
+import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Before;
+import org.junit.Test;
+import Chess.MyChess;
+
+
+/*
+ * 48 test cases totally
+ */
+public class ChessTest {
+
+	@Before
+	public void testSetup() {
+		MyChess.newGame();
+	}
+	
+	/*
+	 * -------------------------------------------------
+	 * Move test for pawn
+	 */
+	@Test
+	public void validPawnMove1() throws Exception {
+		assertTrue( MyChess.isValidMove(71, 61) );
+	}
+
+	@Test
+	public void validPawnMove2() throws Exception {
+		assertTrue( MyChess.isValidMove(72, 62) );
+	}
+
+	@Test
+	public void validPawnMove3() throws Exception {
+		assertTrue( MyChess.isValidMove(73, 63) );
+	}
+
+	@Test
+	public void validPawnMove4() throws Exception {
+		assertTrue( MyChess.isValidMove(74, 64) );
+	}
+
+	@Test
+	public void validPawnMove5() throws Exception {
+		assertTrue( MyChess.isValidMove(75, 65) );
+	}
+
+	@Test
+	public void validPawnMove6() throws Exception {
+		assertTrue( MyChess.isValidMove(76, 66) );
+	}
+	
+	@Test
+	/*
+	 * Out of edge
+	 */
+	public void invalidPawnMove1() throws Exception {
+		assertFalse( MyChess.isValidMove(71, 60) );
+	}
+
+	@Test
+	/*
+	 * invalid move to diagonal
+	 */
+	public void invalidPawnMove2() throws Exception {
+		assertFalse( MyChess.isValidMove(71, 62) );
+	}
+	
+	/*
+	 * ---------------------------------------------------
+	 * Move test for Knight
+	 */
+	@Test
+	public void validKnightMove1() throws Exception {
+		assertTrue( MyChess.isValidMove(87, 66) );
+	}
+	
+	@Test
+	public void validKnightMove2() throws Exception {
+		assertTrue( MyChess.isValidMove(87, 68) );
+	}
+	
+	@Test
+	public void validKnightMove3() throws Exception {
+		assertTrue( MyChess.isValidMove(87, 66) );
+	}
+	
+	@Test
+	public void invalidKnightMove1() throws Exception {
+		assertFalse( MyChess.isValidMove(87, 95) );
+	}
+	
+	@Test
+	public void invalidKnightMove2() throws Exception {
+		assertFalse( MyChess.isValidMove(87, 99) );
+	}
+	
+	@Test
+	public void invalidKnightMove3() throws Exception {
+		assertFalse( MyChess.isValidMove(87, 75) );
+	}
+	
+	@Test
+	public void invalidKnightMove4() throws Exception {
+		assertFalse( MyChess.isValidMove(87, 79) );
+	}
+	
+	/*
+	 * ---------------------------------------------------
+	 * Move test for bishop
+	 */
+	@Test
+	public void validBishopMove1() throws Exception {
+		MyChess.executeMove(72, 62);
+		assertTrue( MyChess.isValidMove(83, 72) );
+	}
+	
+	@Test
+	public void validBishopMove2() throws Exception {
+		MyChess.executeMove(72, 62);
+		assertTrue( MyChess.isValidMove(83, 61) );
+	}
+	
+	@Test
+	public void validBishopMove3() throws Exception {
+		MyChess.executeMove(74, 64);
+		assertTrue( MyChess.isValidMove(83, 74) );
+	}
+	
+	@Test
+	public void validBishopMove4() throws Exception {
+		MyChess.executeMove(74, 64);
+		assertTrue( MyChess.isValidMove(83, 47) );
+	}
+	
+	@Test
+	public void invalidBishopMove1() throws Exception {
+		MyChess.executeMove(74, 64);
+		assertFalse( MyChess.isValidMove(83, 29) );
+	}
+	
+	@Test
+	public void invalidBishopMove2() throws Exception {
+		assertFalse( MyChess.isValidMove(83, 29) );
+	}
+	
+	@Test
+	public void invalidBishopMove3() throws Exception {
+		assertFalse( MyChess.isValidMove(83, 73) );
+	}
+	
+	/*
+	 * ------------------------------------------------------------
+	 * Move test for queen
+	 */
+	@Test
+	public void validQueenMove1() throws Exception {
+		MyChess.executeMove(73, 63);
+		assertTrue( MyChess.isValidMove(84, 73) );
+	}
+	
+	@Test
+	public void validQueenMove2() throws Exception {
+		MyChess.executeMove(73, 63);
+		assertTrue( MyChess.isValidMove(84, 51) );
+	}
+	
+	@Test
+	public void validQueenMove3() throws Exception {
+		MyChess.executeMove(75, 65);
+		assertTrue( MyChess.isValidMove(84, 75) );
+	}
+	
+	@Test
+	public void validQueenMove4() throws Exception {
+		MyChess.executeMove(75, 65);
+		assertTrue( MyChess.isValidMove(84, 48) );
+	}
+	
+	@Test
+	public void invalidQueenMove1() throws Exception {
+		MyChess.executeMove(75, 65);
+		assertFalse( MyChess.isValidMove(84, 39) );
+	}
+	
+	@Test
+	public void invalidQueenMove2() throws Exception {
+		assertFalse( MyChess.isValidMove(84, 29) );
+	}
+	
+	@Test
+	public void invalidQueenMove3() throws Exception {
+		assertFalse( MyChess.isValidMove(84, 73) );
+	}
+	
+	/*
+	 * -------------------------------------------------------
+	 * Move test for rook
+	 */
+	@Test
+	public void validRookMove1() throws Exception {
+		MyChess.executeMove(71, 31);
+		assertTrue( MyChess.isValidMove(81, 41) );
+	}
+	
+	@Test
+	public void validRookMove2() throws Exception {
+		MyChess.executeMove(71, 31);
+		assertTrue( MyChess.isValidMove(81, 51) );
+	}
+	
+	@Test
+	public void validRookMove3() throws Exception {
+		MyChess.executeMove(71, 31);
+		assertTrue( MyChess.isValidMove(81, 61) );
+	}
+	
+	@Test
+	public void validRookMove4() throws Exception {
+		MyChess.executeMove(71, 31);
+		assertTrue( MyChess.isValidMove(81, 71) );
+	}
+	
+	@Test
+	public void invalidRookMove1() throws Exception {
+		MyChess.executeMove(71, 31);
+		assertFalse( MyChess.isValidMove(81, 31) );
+	}
+	
+	@Test
+	public void invalidRookMove2() throws Exception {
+		assertFalse( MyChess.isValidMove(81, 71) );
+	}
+	
+	@Test
+	public void invalidRookMove3() throws Exception {
+		assertFalse( MyChess.isValidMove(81, 80) );
+	}
+	
+	/*
+	 * -------------------------------------------------------
+	 * Move test for king
+	 */
+	@Test
+	public void validKingMove1() throws Exception {
+		MyChess.executeMove(75, 65);
+		assertTrue( MyChess.isValidMove(85, 75) );
+	}
+	
+	@Test
+	public void validKingMove2() throws Exception {
+		MyChess.executeMove(74, 64);
+		assertTrue( MyChess.isValidMove(85, 74) );
+	}
+	
+	@Test
+	public void validKingMove3() throws Exception {
+		MyChess.executeMove(76, 66);
+		assertTrue( MyChess.isValidMove(85, 76) );
+	}
+	
+	@Test
+	public void invalidKingMove1() throws Exception {
+		assertFalse( MyChess.isValidMove(85, 75) );
+	}
+	
+	@Test
+	public void invalidKingMove2() throws Exception {
+		assertFalse( MyChess.isValidMove(85, 84) );
+	}
+	
+	@Test
+	public void invalidKingMove3() throws Exception {
+		assertFalse( MyChess.isValidMove(85, 86) );
+	}
+	
+	/*
+	 * ------------------------------------------------------
+	 * Test for King checked
+	 */
+	@Test
+	public void PawnCheckKing() throws Exception {
+		MyChess.executeMove(74, 64);
+		MyChess.executeMove(24, 74);
+		assertTrue( MyChess.isChecked() );
+	}
+	
+	@Test
+	public void RookCheckKing() throws Exception {
+		MyChess.executeMove(11, 35);
+		MyChess.executeMove(75, 66);
+		assertTrue( MyChess.isChecked() );
+	}
+	
+	@Test
+	public void KnightCheckKing() throws Exception {
+		MyChess.executeMove(17, 66);
+		assertTrue( MyChess.isChecked() );
+		
+	}
+	
+	@Test
+	public void BishopCheckKing() throws Exception {
+		MyChess.executeMove(16, 67);
+		MyChess.executeMove(76, 66);
+		assertTrue( MyChess.isChecked() );
+	}
+	
+	@Test
+	public void QueenCheckKing() throws Exception {
+		MyChess.executeMove(14, 41);
+		MyChess.executeMove(74, 64);
+		assertTrue( MyChess.isChecked() );
+	}
+	
+	@Test
+	public void KingCheckKing() throws Exception {
+		MyChess.executeMove(75, 65);
+		MyChess.executeMove(15, 75);
+		assertTrue( MyChess.isChecked() );
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
